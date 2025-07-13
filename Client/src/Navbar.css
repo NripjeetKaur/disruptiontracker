@@ -1,0 +1,39 @@
+.NavbarContent {
+    display: flex ;
+    height: 90px;
+    justify-content: space-around;
+}
+
+.Navbar {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    height: 30px;
+    border-radius:2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px 30px;
+    color: #646cffaa;
+    font-weight: 750;
+    border: 2px solid #646cffaa;
+}
+
+
+a {
+  text-decoration: none;   
+  color: inherit;          
+  margin: 0 20px 0 20px;
+}
+
+a:hover {
+  background-color: #7b7fbbaa;
+  border-radius: 5px;
+}
+
+.active {
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #7b7fbbaa;
+  color: #0b1072aa;
+}

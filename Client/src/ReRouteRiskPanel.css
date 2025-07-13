@@ -1,0 +1,35 @@
+.RiskPanel { 
+    width: 300px;  
+    height: 88vh;
+    background-color: aliceblue;
+    padding: 10px;
+    overflow-y: auto;             
+    overflow-x: hidden;          
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;                
+    box-sizing: border-box;      
+    position: absolute;
+    top: 88px;
+    right: 5px;
+}
+
+
+
+.RiskPanel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.RiskPanel::-webkit-scrollbar-track {
+  background: aliceblue; 
+  border-radius: 10px;
+}
+
+.RiskPanel::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px;
+  border: 2px solid #f0f0f0; 
+}
+
+.RiskPanel::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  height: 100%;                 
+  overflow-y: auto;             
+  scrollbar-width: none;       
+  -ms-overflow-style: none;     
+}
+
+.App::-webkit-scrollbar {
+  display: none;               
+}

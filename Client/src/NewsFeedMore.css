@@ -1,0 +1,22 @@
+.NewsFeedMore {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 5px;
+    height: 90vh;
+    width: 1200px;
+    border: 2px solid #7b7fbbaa;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Titleofnews {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.Content {
+    font-size: 22px;
+    font-weight: 500;
+}
